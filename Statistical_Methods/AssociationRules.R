@@ -40,7 +40,7 @@ colnames(bxUsers) <- gsub(".", "_", colnames(bxUsers), fixed=T) #substitute char
 #remove 3 URL columns in bxBooks, but keep original dataset
 bxBooks_subset <- bxBooks[,-c(6:8)]
 head(bxBooks_subset, 20)
-tail(bxBooks_subset$Book_Title, 20) #5: "Petite histoire de la d�?©sinformation"
+tail(bxBooks_subset$Book_Title, 20) #5: "Petite histoire de la dÃ?Â©sinformation"
 
 
 #get rid of special characters in Book_Title
