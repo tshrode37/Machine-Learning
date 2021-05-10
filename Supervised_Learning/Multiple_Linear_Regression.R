@@ -70,10 +70,3 @@ par(mfrow=c(2,2))
 plot(new.sales.model)
 vif(new.sales.model)
 
-##Feedback from professor
-  #1) Interpret the meaning of coefficients used in the model
-  #To comparing two (nested) model, you can use anova(). For example:
-    #anova(model1,model2)
-#If the p-value is less than 0.05, then a larger model is significantly 
-#better than a smaller model. In other words, additional variables contribute 
-#significantly to the response.
