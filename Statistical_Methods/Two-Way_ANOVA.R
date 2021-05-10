@@ -74,11 +74,3 @@ tukey_profession <- TukeyHSD(interaction_aov, conf.level = 0.95, which = 'Profes
 tukey_profession
 plot(tukey_profession)
 
-#######Feedback from Professor
-#From the post hoc test, which combination factors 
-#(Profession:Region) are significant - give some examples
-
-#Page 5 (Region*profession) plot, missing some labels on 
-#the x-axis 
-
-#Shapiro.test() is only moderate deviation from normality
